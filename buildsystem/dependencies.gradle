@@ -162,6 +162,8 @@ ext {
 
             [configuration: "compile", dependency: otherLibs.dagger],
             [configuration: "annotationProcessor", dependency: otherLibs.daggerCompiler],
+            [configuration: "annotationProcessor", dependency: otherLibs.daggerProcessor],
+            [configuration: "compile", dependency: otherLibs.daggerSupport],
             [configuration: "compile", dependency: otherLibs.dexter],
             [configuration: "compile", dependency: otherLibs.timber],
 
