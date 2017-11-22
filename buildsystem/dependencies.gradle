@@ -107,7 +107,7 @@ ext {
     ]
 
     def otherLibs = [
-            dagger         : "com.google.dagger:dagger:$dagger",
+            dagger         : "com.google.dagger:dagger-android:$dagger",
             daggerCompiler : "com.google.dagger:dagger-compiler:$dagger",
             daggerSupport  : "com.google.dagger:dagger-android-support:$dagger",
             daggerProcessor: "com.google.dagger:dagger-android-processor:$dagger",
