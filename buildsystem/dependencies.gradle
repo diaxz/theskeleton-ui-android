@@ -108,7 +108,6 @@ ext {
 
     def otherLibs = [
 	    dagger         : "com.google.dagger:dagger:$dagger",
-            daggerAndroid  : "com.google.dagger:dagger-android:$dagger",
             daggerCompiler : "com.google.dagger:dagger-compiler:$dagger",
             daggerSupport  : "com.google.dagger:dagger-android-support:$dagger",
             daggerProcessor: "com.google.dagger:dagger-android-processor:$dagger",
@@ -185,7 +184,6 @@ ext {
             [configuration: "compile", dependency: rxLibs.rxLint],
 
             [configuration: "compile", dependency: otherLibs.dagger],
-	    [configuration: "compile", dependency: otherLibs.daggerAndroid],
             [configuration: "annotationProcessor", dependency: otherLibs.daggerCompiler],
             [configuration: "annotationProcessor", dependency: otherLibs.daggerProcessor],
             [configuration: "compile", dependency: otherLibs.daggerSupport],
