@@ -5,9 +5,10 @@ cd $HOME
 git config --global user.email "theskeleton@codenergic.org"
 git config --global user.name "TheSkeleton"
 
-git clone --quiet --branch=master https://diaxz:$GITHUB_API@github.com/diaxz/theskeleton-ui-android > /dev/null
+git clone --quiet --branch=master https://diaxz:$GITHUB_API@github.com/diaxz/theskeleton-ui-android master > /dev/null
 
-cd mastercp -Rf $HOME/android/* .
+cd master
+cp -Rf $HOME/android/* .
 
 git add -f .
 git remote rm origin
