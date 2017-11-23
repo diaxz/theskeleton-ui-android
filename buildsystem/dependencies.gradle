@@ -161,9 +161,10 @@ ext {
             [configuration: "compile", dependency: rxLibs.rxLint],
 
             [configuration: "compile", dependency: otherLibs.dagger],
-            [configuration: "annotationProcessor", dependency: otherLibs.daggerCompiler],
-            [configuration: "annotationProcessor", dependency: otherLibs.daggerProcessor],
             [configuration: "compile", dependency: otherLibs.daggerSupport],
+            [configuration: "annotationProcessor", dependency: otherLibs.daggerProcessor],
+            [configuration: "annotationProcessor", dependency: otherLibs.daggerCompiler],
+
             [configuration: "compile", dependency: otherLibs.dexter],
             [configuration: "compile", dependency: otherLibs.timber],
 
@@ -184,9 +185,9 @@ ext {
             [configuration: "compile", dependency: rxLibs.rxLint],
 
             [configuration: "compile", dependency: otherLibs.dagger],
-            [configuration: "annotationProcessor", dependency: otherLibs.daggerCompiler],
-            [configuration: "annotationProcessor", dependency: otherLibs.daggerProcessor],
             [configuration: "compile", dependency: otherLibs.daggerSupport],
+            [configuration: "annotationProcessor", dependency: otherLibs.daggerProcessor],
+            [configuration: "annotationProcessor", dependency: otherLibs.daggerCompiler],
             [configuration: "compile", dependency: otherLibs.timber],
 
             [configuration: "provided", dependency: networkLibs.autoValue],
