@@ -1,5 +1,5 @@
 mkdir $HOME/buildApk/ 
-cp -R app/build/outputs/apk/app-dev-debug.apk $HOME/android/
+cp -R app/build/outputs/apk/app-dev-debug.apk $HOME/buildApk/
 
 cd $HOME
 git config --global user.email "theskeleton@codenergic.org"
