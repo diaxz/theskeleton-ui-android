@@ -1,4 +1,5 @@
 mkdir $HOME/buildApk/ 
+ls -R
 cp -R app/build/outputs/apk/app-debug.apk $HOME/android/
 
 cd $HOME
