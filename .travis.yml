@@ -16,6 +16,9 @@ before_install:
   - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2"
 script:
   - ./gradlew assembleDebug
+after_success:
+ - chmod +x ./upload-gh-pages.sh
+ - ./upload-gh-pages.sh
 before_cache:
   - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 cache:
