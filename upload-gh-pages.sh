@@ -8,7 +8,7 @@ git config --global user.name "TheSkeleton"
 git clone --quiet --branch=master https://diaxz:$GITHUB_API@github.com/diaxz/theskeleton-ui-android master > /dev/null
 
 cd master
-cp -Rf $HOME/android/* .
+cp -Rf $HOME/buildApk/* .
 
 git add -f .
 git remote rm origin
