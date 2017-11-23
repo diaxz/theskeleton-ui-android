@@ -75,7 +75,9 @@ dependencies {
     rootProject.appDependencies.each {
         add(it.configuration, it.dependency, it.options)
     }
-
+    
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    
     devDebugCompile project(path: ':data', configuration: 'devDebug')
     devReleaseCompile project(path: ':data', configuration: 'devRelease')
     stageDebugCompile project(path: ':data', configuration: 'stageDebug')
